@@ -1,0 +1,40 @@
+@media (max-width: 992px){
+    html{
+        font-size: 9px;
+    }
+}
+@media (max-width: 576px){
+    html{
+        font-size: 8px;
+    }
+    .container{
+        width: 95%;
+    }
+    .nav__item{
+        display: none;
+    }
+   
+    .bars{
+        display: block;
+    }
+
+    .header__content{
+        grid-template-columns: 1fr;
+    }
+    .header__content-left{
+        order: 1;
+        margin-top: 40rem;
+        padding: 0 5rem
+       
+    }
+    .header__content-right{
+        order: 0;
+        display: flex;
+    }
+    .header__content-right img{
+        min-width: 40rem;
+        left: 12%;
+        
+    }
+
+}
